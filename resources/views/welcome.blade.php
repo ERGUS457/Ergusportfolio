@@ -72,46 +72,6 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
     </div>
 </nav>
-    <div class="container-fluid">
-        <a class="navbar-brand name" href="#">ERGUS</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="navbar-collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">
-            <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link text-light" aria-current="page" href="#Home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#projects">Project</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#contact">Contact Us</a>
-                </li>
-            </ul>
-        </div>
-            </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link text-light" aria-current="page" href="#Home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#projects">Project</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#contact">Contact Us</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
 <!-- Akhir Navbar -->
 
 <!--awal Jumbtron -->
@@ -199,10 +159,10 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="mb-3">
                             <label for="Email" class="form-label">Email</label>
                             <input type="email" class="form-control" id="email" aria-describedby="email"/>
-                        <div class="mb-3">
-                        <label for="pesan" class="form-label">Pesan</label></label>
-                        <textarea class="form-control" id="pesan" rows="3"></textarea>
                         </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="pesan" rows="3"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Kirim</button>
                         </form>
